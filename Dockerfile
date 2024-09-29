@@ -11,4 +11,4 @@ COPY target/my-java-project-1.0-SNAPSHOT.jar  /app/
 EXPOSE 8080
 
 # Define the command to run your application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "my-java-project-1.0-SNAPSHOT.jar"]
